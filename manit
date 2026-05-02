@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h1 class="logo">MyResume</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Hello, I'm <span>Your Name</span></h2>
+    <p>Engineering Student | Web Developer</p>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a motivated student with interest in web development and problem solving.
+        I enjoy building clean and responsive websites.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="card-container">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">C Programming</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Resume Website</h3>
+            <p>Personal portfolio website using HTML & CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Mini Business Project</h3>
+            <p>Conducted a lemonade stall business experiment.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
